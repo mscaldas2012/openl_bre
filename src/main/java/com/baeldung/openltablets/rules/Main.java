@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
         Main rules = new Main();
         final EngineFactory<IRule> engineFactory = new RulesEngineFactory<IRule>(Main.class.getClassLoader()
-                .getResource("openltablets/catchment.xlsx"), IRule.class);
+                .getResource("openltablets/catchment2.xlsx"), IRule.class);
         instance = engineFactory.newEngineInstance();
 
         rules.process("California", "San Francisco");
@@ -21,7 +21,7 @@ public class Main {
     }
 
     public void process(String state, String county) {
-        String response = instance.validateCatchement(state, county);
+        Boolean response = instance.validateCatchement(state, county);
         System.out.println("response = " + response);
     }
 }
