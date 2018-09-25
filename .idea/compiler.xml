@@ -10,8 +10,8 @@
         <module name="openl-tablets" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="openl-tablets" target="1.5" />
+    <bytecodeTargetLevel target="8">
+      <module name="openl-tablets" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

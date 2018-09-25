@@ -10,24 +10,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/classes" />
-  </component>
-  <component name="SbtLocalSettings">
-    <option name="modificationStamps">
-      <map>
-        <entry key="$PROJECT_DIR$/../../../nlpProject/learningPlayground/scala-akka" value="1486158509000" />
-        <entry key="$PROJECT_DIR$/../../../reactive-machine-learning-systems-master/chapter-4" value="1475437324000" />
-      </map>
-    </option>
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../../nlp/Klasifikasyon/data" value="PREVIEW" />
-        <entry key="$USER_HOME$/work/NCEZID/EIP/hl7-utils" value="PREVIEW" />
-      </map>
-    </option>
-  </component>
-  <component name="ScalaSbtSettings">
-    <option name="customVMPath" />
   </component>
 </project>
